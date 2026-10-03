@@ -1,0 +1,14 @@
+node_modules
+package.json
+package-lock.json
+bun.lock
+
+# global config, not a tutor file
+opencode.jsonc
+
+# tutor session artifacts (start-session.sh also appends to .git/info/exclude)
+original/
+reference/
+PROGRESS.md
+FEATURES.md
+reports/
