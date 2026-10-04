@@ -61,7 +61,7 @@ Rules:
 Append to `PROGRESS.md`:
 
 ```
-## <feature name> — <date>
+## <feature name> - <date>
 - Built: <what they wrote themselves>
 - Solid: <only concepts they explained in their own words>
 - Unverified: <things that worked but they never explained>

@@ -1,7 +1,7 @@
 # tutor
 
 An AI-built version of your code sits in `reference/`. `original/` is your copy at
-your last git commit — you rebuild it by hand, feature by feature, and the tutor
+your last git commit - you rebuild it by hand, feature by feature, and the tutor
 grills you on each step before moving on.
 
 The tutor never writes your code. It asks until you can explain it back.
@@ -11,7 +11,7 @@ The tutor never writes your code. It asks until you can explain it back.
 In opencode, inside a git repo with at least one commit:
 
 1. Tab to the **tutor** agent.
-2. Run `/start` — optionally `/start <base-ref>` to rebuild from an older commit.
+2. Run `/start` - optionally `/start <base-ref>` to rebuild from an older commit.
 
 That's it. `/start` runs `start-session.sh` for you (creates `original/` and
 `reference/`, then writes `FEATURES.md` and `PROGRESS.md`). Don't run the script
