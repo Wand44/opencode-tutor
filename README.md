@@ -24,7 +24,7 @@ walks you through it.
 | --- | --- |
 | `/start [base-ref]` | Sets up the session and lists the features to rebuild |
 | `/recall` | Re-tests earlier gaps you never explained |
-| `/test` | Checks the feature in a scratch Blender scene, each call approved for you |
+| `/test` | Checks the feature in a scratch session, each call approved for you |
 
 ## Files
 

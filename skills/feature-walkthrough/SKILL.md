@@ -49,7 +49,7 @@ Rules:
 - Right answer in their own words -> say so in a few words and move on.
 
 ## 5. Test
-- Offer `/test`. It checks the feature in a scratch Blender scene with approval.
+- Offer `/test`. It checks the feature in a scratch session with approval.
 - Ask them to predict the result first. Compare after.
 
 ## 6. Compare

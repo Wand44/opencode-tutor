@@ -1,12 +1,12 @@
 ---
-description: Test the feature we just built in a scratch Blender scene
+description: Test the feature we just built in a scratch session
 agent: tutor
 ---
 
 We just finished a feature. Test it.
 
 1. Ask me to predict what should happen, in one sentence. Wait for my answer.
-2. Then, using the Blender tool (I'll approve each call):
+2. Then, using the external tool (I'll approve each call):
    - create a NEW scratch scene and run everything there,
    - never clear, edit or delete anything in my open scene,
    - make sure the addon being tested is the one in `original/`

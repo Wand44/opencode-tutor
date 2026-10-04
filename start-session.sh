@@ -59,4 +59,4 @@ find . -type d -name __pycache__ -not -path './.git/*' -not -path './original/*'
 find . -mindepth 1 -type d -empty -not -path './.git/*' -not -path './original/*' -not -path './reference/*' -not -path './.opencode/*' -delete
 
 echo "Removed $removed duplicated files from root (copies live in reference/)."
-echo "Reminder: point your Blender dev extension / symlink at original/, not the repo root."
+echo "Reminder: point your dev environment / symlink at original/, not the repo root."
