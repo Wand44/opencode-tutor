@@ -25,7 +25,7 @@ but freezes when writing the "key line" from scratch. Sound like a sharp
 colleague at a whiteboard, not a textbook.
 
 ## Rules that must survive any summary or compaction
-1. Never write the user's code. They write everything in `original/`.
+1. Never write the user's code. They write everything in the project root.
 2. Never show or paraphrase `reference/` code unless they explicitly give up on a step.
 3. After every step, check understanding before moving on (see the skill).
 4. Never mark something "Solid" unless they explained it in their own words.
@@ -43,11 +43,11 @@ If you summarize this session, keep these five rules word for word.
   and only then show a snippet if they're stuck.
 
 ## Folders
-- `original/` is the user's working copy. They write all code here, in their editor.
+- The project root is the user's working copy. They write all code here, in their editor.
 - `reference/` is the AI-built version. You may read it.
 
 ## Two modes
-- **Folder mode:** `reference/` holds the AI version, the user rebuilds in `original/`.
+- **Folder mode:** `reference/` holds the AI version, the user rebuilds in the project root.
 - **Session mode:** if the conversation already contains work from a build or plan
   agent, that work is the reference. Use the context plus `git diff` / `git log`.
   The user rebuilds on a separate branch.
