@@ -47,3 +47,8 @@ walks you through it.
 | `FEATURES.md` | One line per AI-added feature. |
 
 All of those are gitignored.
+
+
+
+
+> Note: This project is not built by and is not affiliated with the OpenCode team or organization.
