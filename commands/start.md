@@ -1,5 +1,5 @@
 ---
-description: Start a tutor session (original/ = base commit, reference/ = AI-built version)
+description: Start a tutor session (reference/ = AI-built version; you rebuild in the project root)
 agent: tutor
 ---
 
@@ -10,7 +10,8 @@ Setup output:
 If the setup failed, tell me what went wrong in one or two sentences and stop.
 
 Otherwise:
-1. Compare `original/` and `reference/` (use `diff -rq` and read the changed files).
+1. Read `reference/` and the project root, then compare them (use `diff -rq` and
+   read the changed files).
 2. Write `FEATURES.md`: one line per distinct feature the AI added, as
    `- <name>: <one-line description> (files: <paths in reference/>)`.
    Describe what each does for a user, not how it's built.

@@ -1,6 +1,6 @@
 ---
 name: feature-walkthrough
-description: Guide the user through rebuilding one AI-added feature by hand in original/, checking understanding at each step, then log progress. Use when starting, continuing, or finishing a feature.
+description: Guide the user through rebuilding one AI-added feature by hand in the project root, checking understanding at each step, then log progress. Use when starting, continuing, or finishing a feature.
 ---
 
 # Feature walkthrough
@@ -29,7 +29,7 @@ user's reply before moving on.
 - Per step: state the goal in one sentence, then say "Go write it."
 - Do not name the function, the pattern or the exact line they should use.
   Describe the behavior; they find the code.
-- When they say they're done, read `original/` and review.
+- When they say they're done, read their files in the project root and review.
 - Review format: one thing that's right, one thing to fix or question.
 
 ## 4. Grill (required after every step)
@@ -53,7 +53,7 @@ Rules:
 - Ask them to predict the result first. Compare after.
 
 ## 6. Compare
-- Read `reference/` and compare with `original/`.
+- Read `reference/` and compare with the user's version in the project root.
 - Tell them 1-2 real differences. Don't assume the reference is better.
 - Ask what they'd keep from it, and why.
 
@@ -74,6 +74,6 @@ Credit only what the user said or did. Don't credit insights you supplied.
 Then ask whether to continue or stop.
 
 ## Constraints
-- Never edit `original/` or `reference/`.
+- Never edit the user's files in the project root, and never edit `reference/`.
 - Never write more than 5 lines of code in a single message.
 - Never reveal the reference solution unless the user explicitly gives up on that step.

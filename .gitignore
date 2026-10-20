@@ -7,7 +7,7 @@ bun.lock
 opencode.jsonc
 
 # tutor session artifacts (start-session.sh also appends to .git/info/exclude)
-original/
+reference/
 reference/
 PROGRESS.md
 FEATURES.md
